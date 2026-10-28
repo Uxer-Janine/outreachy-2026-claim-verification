@@ -1,0 +1,594 @@
+{
+  "name": "Janine Makorre",
+  "checked": "2026-10-27",
+  "intro": "This website documents my contributions to the Wiki Education Claim-Source Verification Library project during the Outreachy October 2026 contribution phase.",
+  "about": "I work across product and service design, UX research and technology, with experience in data science and document processing.",
+  "project": "https://phabricator.wikimedia.org/T436984",
+  "proposal": "https://phabricator.wikimedia.org/T441562",
+  "github": "https://github.com/Uxer-Janine",
+  "contributions": [
+    {
+      "id": "verification",
+      "number": "01",
+      "category": "Verification",
+      "title": "Claim Verification — Issue #7037",
+      "shortTitle": "Claim Verification — Issue #7037",
+      "issue": "#7037",
+      "status": "20 assessments documented",
+      "date": "2026-10",
+      "dateLabel": "October 2026",
+      "summary": "The starting point: 10 claims from the exercise and 10 independently selected Wikipedia claims, each investigated against its cited material.",
+      "problem": "A citation can be relevant to the topic without supporting the exact statement beside it. Wording, context and access to the full source change what can be concluded.",
+      "approach": "Recorded the exact claim and citation, retrieved the source, located passages in context, and wrote a human assessment before documenting separate AI comparisons.",
+      "outcome": "A report with claim records A01–A10 and B01–B10, evidence locations, written reasoning, access notes and reflections. The report is a contribution to review, not an independently adjudicated benchmark.",
+      "lesson": "Locating the relevant passage could take longer than assessing it. Matching a keyword was only the beginning; reading around it mattered.",
+      "limitation": "Assessments reflect the contributor's interpretation. This portfolio does not certify every verdict as correct. Some records would benefit from more precise excerpts or a second review.",
+      "ai": "I wrote the human assessments and documented later ChatGPT, Claude and Gemini comparisons separately. AI also assisted planning, research into unfamiliar concepts, formatting and editing, as disclosed in my report.",
+      "sources": [
+        "human-report",
+        "microtask",
+        "initial-share"
+      ],
+      "anchor": "verification",
+      "task": "Independently assess whether 10 claims from the Dashboard exercise and 10 additional Wikipedia claims are supported by their cited sources.",
+      "myContribution": "I recorded the exact wording and citation for each claim, located and read the source, and documented my assessment with relevant passages and evidence locations. I recorded later AI comparisons separately from my human assessments.",
+      "result": "My report contains 20 claim records, source-access notes, written explanations and reflections. Recurring challenges included locating relevant passages, handling partial support and distinguishing inference from what a source explicitly states.",
+      "preview": {
+        "overview": "Assess 20 Wikipedia claims against their cited sources.",
+        "work": "I read sources, located relevant passages and recorded my human assessments before separate AI comparisons.",
+        "outcome": "A report with 20 claim records, evidence locations, reasoning and reflections."
+      }
+    },
+    {
+      "id": "research",
+      "number": "02",
+      "category": "Research",
+      "title": "Comparing Claim Verification Assessments — Issue #7175",
+      "shortTitle": "Comparing Claim Verification Assessments — Issue #7175",
+      "issue": "#7175",
+      "status": "Research report written",
+      "date": "2026-10",
+      "dateLabel": "October 2026",
+      "summary": "A qualitative comparison of seven public contributor reports, looking beyond verdict labels to the evidence and reasoning behind them.",
+      "problem": "Different articles, verdict vocabularies and interpretations make a single agreement percentage misleading. Even overlapping claims can be assessed differently.",
+      "approach": "Compared recurring patterns across seven reports and examined overlapping claims where possible: partial support, qualifiers, numerical context, missing evidence and human–AI reasoning.",
+      "outcome": "A synthesis of concrete examples and open questions for annotation guidance: retain subclaims, exact passages, locations, explanations, limitations and reviewer disagreements.",
+      "lesson": "Agreement does not establish ground truth. A useful reference assessment needs an evidence trail and a documented review process.",
+      "limitation": "This is a qualitative synthesis, not a formal reliability study or validation of every contributor's conclusion. Suggested data fields and a pilot remain proposals.",
+      "ai": "This portfolio summary was drafted with Codex from my research report. The original contributor reports remain linked through that report.",
+      "sources": [
+        "research-report",
+        "aggregate-task"
+      ],
+      "anchor": "research",
+      "task": "Review publicly shared contributor evaluations and report recurring patterns in their assessments and reasoning.",
+      "myContribution": "I reviewed seven contributor reports, compared overlapping claims where possible, and examined partial support, qualifiers, numerical context, disagreement and uncertainty. I used a qualitative comparison because the reports covered different articles and verdict labels.",
+      "result": "I documented examples of both agreement and disagreement, along with questions for clearer annotation guidance. The report proposes recording exact passages, locations, reasoning and unresolved differences; it does not independently validate every assessment.",
+      "preview": {
+        "overview": "Compare publicly shared claim assessments and reasoning.",
+        "work": "I reviewed seven contributor reports and examined recurring patterns and overlapping claims.",
+        "outcome": "A qualitative comparison covering partial support, disagreement, uncertainty and evidence traceability."
+      }
+    },
+    {
+      "id": "ux",
+      "number": "03",
+      "category": "Design",
+      "title": "Improving the Verify Claim Experience — Issue #7151",
+      "shortTitle": "Improving the Verify Claim Experience — Issue #7151",
+      "issue": "#7151",
+      "status": "Design proposal · UX Flow Designs",
+      "date": "2026-10",
+      "dateLabel": "October 2026",
+      "summary": "A student experience that keeps the claim, source passages and reasoning together—and introduces AI only after an independent judgment.",
+      "problem": "The local walkthrough exposed nested scrolling, source evaluation before source reading, a verdict accepted without explanation, and loss of an unsaved edit on refresh.",
+      "approach": "Revisited an initial Figma direction after inspecting the existing exercise. Focused the redesign on evidence traceability, independent judgment and optional reflection.",
+      "outcome": "A Figma Handoff connecting Understand the Claim → Evidence Workspace → Make a Judgment → Compare with AI → Completion, with optional expanded reading, reasoning review and independent practice.",
+      "lesson": "The existing exercise already offered five nuanced verdicts and source-access distinctions. The design opportunity was to make the evidence and thinking easier to follow.",
+      "limitation": "Proposed design, not a shipped Dashboard feature or student usability study. Saving, highlighting, verdict changes and AI responses are illustrative. Educational, accessibility and student validation remain necessary.",
+      "ai": "I developed the initial UX direction and guided the refinements. Codex assisted technical inspection, later screen refinements, content checks and design-screen QA.",
+      "sources": [
+        "case-study",
+        "figma",
+        "ux-task",
+        "ux-comment"
+      ],
+      "anchor": "design",
+      "task": "Suggest improvements to the student verification experience, focusing on ease of use and evidence-evaluation skills.",
+      "myContribution": "I developed an initial Figma design and refined it after reviewing the local walkthrough. I focused on keeping claims and source passages together, documenting reasoning, and introducing AI comparison after an independent judgment.",
+      "result": "I produced a UX case study and a linked Figma Handoff with an Evidence Workspace, an optional expanded reader, judgment and AI-comparison screens, completion, optional reasoning review and a separate practice challenge. These are proposed designs, not implemented Dashboard features.",
+      "preview": {
+        "overview": "Propose improvements to the student verification experience.",
+        "work": "I developed and refined a Figma proposal informed by the local walkthrough.",
+        "outcome": "A UX case study and UX Flow Designs. These are proposed designs, not implemented features."
+      }
+    },
+    {
+      "id": "walkthrough",
+      "number": "04",
+      "category": "Research",
+      "title": "Local Dashboard Exploration",
+      "shortTitle": "Local Dashboard Exploration",
+      "issue": "Local exploration",
+      "status": "Walkthrough documented",
+      "date": "2026-10-21",
+      "dateLabel": "21 October 2026",
+      "summary": "An AI-assisted local walkthrough with a fictional student account and sample claims, used to reconsider the initial UX proposal.",
+      "problem": "Designing from assumptions risked proposing features already present and missing friction that only appears through interaction.",
+      "approach": "Explored article selection, highlighted claims, citations, source access, assessment, saving and revision in a local development environment.",
+      "outcome": "A screenshot-supported review identifying what to preserve—context, five verdicts, source-access distinctions and revision—and where the workflow could become clearer.",
+      "lesson": "An assessment saved without an explanation in the tested flow. A separate refresh check removed unsaved text while retaining the previously submitted response.",
+      "limitation": "Synthetic account and locally seeded exercise. Not production research, a live student study, or independent verification of the selected sample claim. The temporary test response was removed.",
+      "ai": "Codex assisted local setup, the walkthrough, technical inspection and documentation. I reviewed the findings and used them to identify design priorities.",
+      "sources": [
+        "walkthrough-report",
+        "setup"
+      ],
+      "anchor": "walkthrough",
+      "task": "Explore the existing claim-verification flow locally before refining the UX proposal.",
+      "myContribution": "With Codex’s assistance, I explored a local Dashboard installation using a fictional student account and sample claims. I reviewed claim selection, citation access, assessment, saving and revision, and documented the observations with screenshots.",
+      "result": "The walkthrough identified nested scrolling, source evaluation before source reading, a verdict accepted without an explanation, and an unsaved edit lost on refresh. It also identified features to preserve: article context, five verdicts, source-access distinctions and revision of submitted responses.",
+      "preview": {
+        "overview": "Run and review the existing Dashboard verification exercise locally.",
+        "work": "With Codex’s assistance, I explored the flow using a fictional student account and sample claims.",
+        "outcome": "A screenshot-supported walkthrough identifying existing strengths and areas for improvement."
+      }
+    },
+    {
+      "id": "engineering",
+      "number": "05",
+      "category": "Engineering",
+      "title": "Style Guide Initialization — Issue #4465 / PR #7204",
+      "shortTitle": "Style Guide Initialization — Issue #4465 / PR #7204",
+      "issue": "#4465 / PR #7204",
+      "status": "Open · ready for review",
+      "date": "2026-10-24",
+      "dateLabel": "PR opened 24 October 2026",
+      "summary": "A focused two-file patch restoring initialization for existing React examples in the Dashboard's standalone style guide.",
+      "problem": "The standalone entry point failed because I18n was not initialized before dependent components loaded; examples also needed Redux context.",
+      "approach": "Investigated startup dependencies, initialized translations early, supplied a small Redux store through Provider, and added regression tests in English and Spanish.",
+      "outcome": "PR #7204 changes the style guide entry point and one test file. Controlled fixtures using matching HTML, CSS, translations and setup demonstrated restored examples. Addresses part of #4465.",
+      "lesson": "The public website was not a verified baseline. A controlled original-versus-patched comparison was necessary to attribute differences to the patch.",
+      "limitation": "Not merged. CI build passed; security-audit failed on the current head as checked 27 October. Popover positioning, missing examples and some date-boundary behavior remain outside scope.",
+      "ai": "Codex assisted implementation, tests, validation and PR preparation. I selected the issue, questioned assumptions, directed the controlled comparison and reviewed the scope and results.",
+      "sources": [
+        "pr",
+        "ci",
+        "engineering-report",
+        "style-task"
+      ],
+      "anchor": "engineering",
+      "task": "Investigate and restore existing React examples that were not rendering on the standalone style guide page.",
+      "myContribution": "I selected the issue, reviewed the investigation and directed a controlled original-versus-patched comparison. Codex assisted with the two-file implementation, regression tests and validation. The patch initializes translations before dependent components and provides the required Redux context.",
+      "result": "I submitted PR #7204, which addresses part of #4465. It is open and ready for review, not merged. The controlled comparison showed the existing date controls and calendar rendering after the fix. Other component and positioning work remains outside this patch."
+    },
+    {
+      "id": "comments",
+      "number": "06",
+      "category": "Engineering",
+      "title": "Outdated Code Comments — Issue #6871",
+      "shortTitle": "Outdated Code Comments — Issue #6871",
+      "issue": "#6871",
+      "status": "Investigated · no PR submitted",
+      "date": "2026-10-24",
+      "dateLabel": "Decision documented 24 October 2026",
+      "summary": "Examined stale mixin terminology and date-handler documentation, then withdrew a cleanup patch whose practical value was not established.",
+      "problem": "Old terminology can mislead developers, but a wording change alone does not necessarily fix a substantive problem.",
+      "approach": "Inspected InputHOC and DatePicker behavior and reassessed the proposed edits against mentor guidance to prioritize consequential inaccuracies.",
+      "outcome": "No code committed, pushed or submitted for this issue. The proposed work was archived and the investigation branch returned to its original clean state.",
+      "lesson": "Both date-handler branches return ISO timestamps. An early proposed explanation would have introduced a new inaccuracy; further inspection caught it.",
+      "limitation": "Comment-only parsing and lint checks established unchanged executable behavior, not that the wording edits were needed.",
+      "ai": "Codex assisted code inspection, drafting, reassessment and checks. I reviewed the findings and mentor feedback and chose not to submit.",
+      "sources": [
+        "comments-report",
+        "comments-task",
+        "withdrawal"
+      ],
+      "anchor": "engineering",
+      "task": "Investigate comments that no longer accurately describe the surrounding implementation.",
+      "myContribution": "With Codex’s assistance, I inspected InputHOC and date-picker documentation and reviewed the proposed changes against mentor guidance to prioritize substantive inaccuracies.",
+      "result": "I decided not to submit the cleanup patch because its practical value had not been established. I documented that decision in the issue discussion. No code was committed, pushed or submitted for this investigation."
+    }
+  ],
+  "researchExamples": [
+    {
+      "topic": "Juvenile independence",
+      "article": "American pika",
+      "observations": "Fully supported / Partially supported",
+      "interpretation": "Is weaning or reduced family contact equivalent to independence?",
+      "lesson": "Define the concept before treating development evidence as direct support."
+    },
+    {
+      "topic": "Premature-death figures",
+      "article": "Diseases of poverty",
+      "observations": "Supported / Qualified support",
+      "interpretation": "A 2021 figure is not automatically a general annual statement.",
+      "lesson": "Keep the timeframe attached to the number."
+    },
+    {
+      "topic": "Supermarket distance",
+      "article": "Diseases of poverty",
+      "observations": "Partial support in both reports",
+      "interpretation": "A reported association does not establish the broader causal explanation.",
+      "lesson": "A shared verdict still needs an explanation of scope and causality."
+    }
+  ],
+  "screens": [
+    {
+      "name": "Evidence Workspace",
+      "src": "assets/workspace.png",
+      "alt": "Proposed Evidence Workspace with a fictional claim, source reader, linked evidence card and a reasoning area",
+      "caption": "Proposed Evidence Workspace showing the claim, source, evidence reference and reasoning together. Highlighting and editing are not implemented."
+    },
+    {
+      "name": "Expanded reader",
+      "src": "assets/reader.png",
+      "alt": "Proposed expanded reference reader showing the same fictional passage and a return to workspace action",
+      "caption": "Optional expanded source reader with a return to the Evidence Workspace."
+    },
+    {
+      "name": "Make a Judgment",
+      "src": "assets/judgment.png",
+      "alt": "Proposed judgment screen with five verdicts and an explanation tied to evidence E1",
+      "caption": "Proposed judgment screen with five verdicts and an evidence-based explanation. The displayed response is an illustrative example."
+    },
+    {
+      "name": "Compare with AI",
+      "src": "assets/ai.png",
+      "alt": "Proposed AI comparison screen labelling the suggestion as potentially mistaken and asking for evidence-based reflection",
+      "caption": "Proposed AI comparison after the student’s independent assessment. The AI response shown is illustrative."
+    },
+    {
+      "name": "Independent practice",
+      "src": "assets/challenge.png",
+      "alt": "Independent Northbank Library practice screen with counts of 120 and 180 visits and no selected verdict",
+      "caption": "Separate fictional practice activity with no answer selected. The source shows 120 visits increasing to 180: a 50% increase, not a doubling. The expected verdict for the claim is Contradicted."
+    }
+  ],
+  "resources": [
+    {
+      "source": "community-intro",
+      "number": "01",
+      "title": "Projects Introduction",
+      "purpose": "A starting point for newcomers",
+      "body": "Project context, learning materials and a contributor-created FAQ covering claim selection, source access, uncertainty, AI disclosure and how to share work.",
+      "status": "Shared community draft",
+      "note": "Guidance is not an official project requirement or mentor-approved FAQ.",
+      "myContribution": "I organized introductory guidance and common questions to help contributors understand the task and find relevant learning materials."
+    },
+    {
+      "source": "community-links",
+      "number": "02",
+      "title": "Important Outreachy Links",
+      "purpose": "Less searching, more context",
+      "body": "A curated index of the compulsory and optional tasks, official setup and contribution guides, proposal examples and meeting references.",
+      "status": "Shared resource index",
+      "note": "Meeting access details are not reproduced in this portfolio.",
+      "myContribution": "I collected task links, setup guides, proposal references and meeting resources in one index and shared it in the project discussion."
+    },
+    {
+      "source": "community-meetings",
+      "number": "03",
+      "title": "Meeting coordination and recordings",
+      "purpose": "A record for collaborative exploration",
+      "body": "Agendas for introductions, claim-verification challenges, proposal-subtask creation and local exploration, with links to meeting records.",
+      "status": "Agendas and records linked",
+      "note": "Meeting 2 notes are marked work in progress on this page. Attendance, impact and recording permissions are not asserted.",
+      "myContribution": "I contributed to meeting coordination and collected agendas and links to records so contributors could find the discussions and follow-up material."
+    },
+    {
+      "source": "community-local",
+      "number": "04",
+      "title": "Run the Claim-Verification Exercise Locally",
+      "purpose": "Turn shared troubleshooting into guidance",
+      "body": "Community SQL and adapted Ruby examples for linking sample claims to a local course, exact-text matching fixes, navigation checks and troubleshooting.",
+      "status": "Compiled community guide",
+      "note": "Credits fellow contributors and Ifeanyi's walkthrough. The adapted follow-up script is not end-to-end validated; demo citations are not a verified dataset.",
+      "myContribution": "I compiled instructions and troubleshooting shared by fellow contributors, credited the original material and adapted the follow-up Ruby example."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "13 Oct 2026",
+      "title": "Introduced myself in the project discussion",
+      "body": "Introduced a focus on careful research, clear documentation and relevant Python experience.",
+      "source": "introduction"
+    },
+    {
+      "date": "21 Oct 2026",
+      "title": "Documented the walkthrough and shared UX suggestions",
+      "body": "Documented the local walkthrough, shared UX suggestions and linked community guides in the microtask discussion.",
+      "source": "community-share"
+    },
+    {
+      "date": "24 Oct 2026",
+      "title": "Opened PR #7204",
+      "body": "Opened PR #7204 and explained why the separate comment-cleanup investigation would not become a PR.",
+      "source": "pr"
+    },
+    {
+      "date": "24 Oct 2026",
+      "title": "Shared initial claim assessments",
+      "body": "Posted the initial assessment document for feedback; the portfolio links the fuller report supplied for this review.",
+      "source": "initial-share"
+    },
+    {
+      "date": "27 Oct 2026",
+      "title": "Marked PR #7204 ready for review",
+      "body": "The PR remains open and unmerged. Current build and security-audit results are reported separately.",
+      "source": "ready-comment"
+    }
+  ],
+  "sources": [
+    {
+      "id": "project",
+      "title": "Claim-Source Verification Library · project brief",
+      "url": "https://phabricator.wikimedia.org/T436984",
+      "category": "Project",
+      "type": "Phabricator",
+      "access": "Public · read",
+      "note": "Human-produced reference assessments are the foundation; automated benchmarking is a future use."
+    },
+    {
+      "id": "proposal",
+      "title": "Janine's internship proposal · separate from this portfolio",
+      "url": "https://phabricator.wikimedia.org/T441562",
+      "category": "Project",
+      "type": "Phabricator",
+      "access": "Direct page needs manual check",
+      "note": "Subtask identity confirmed in the parent task. Direct request returned 403. Proposal text is not copied or rewritten."
+    },
+    {
+      "id": "human-report",
+      "title": "Human claim assessments and separate AI comparisons",
+      "url": "https://docs.google.com/document/d/1_7OMEThtyel-viLMQvOsMPVqgYRnX05qiYnicEaiGKc/edit?usp=sharing",
+      "category": "Verification",
+      "type": "Google Docs",
+      "access": "Public text export · read",
+      "note": "20 claim records, access notes, human reasoning, later AI responses, reflections and limitations."
+    },
+    {
+      "id": "microtask",
+      "title": "#7037 · compulsory claim-verification microtask",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7037",
+      "category": "Verification",
+      "type": "GitHub issue",
+      "access": "Public · read",
+      "note": "10 highlighted claims plus 10 additional claims; compare AI separately if used."
+    },
+    {
+      "id": "initial-share",
+      "title": "Janine's initial assessment-sharing comment",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7037#issuecomment-6383254851",
+      "category": "Verification",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "Dated 24 October. Links an earlier assessment document rather than the fuller report supplied here."
+    },
+    {
+      "id": "case-study",
+      "title": "From Verdicts to Reasoning · UX case study",
+      "url": "https://app.notion.com/p/400fc8205dbf818a986fc13985bb4dca",
+      "category": "Design",
+      "type": "Notion",
+      "access": "Read through connection · guest access unverified",
+      "note": "Exploratory walkthrough and proposed student design. Some next-step wording predates the final design-screen QA."
+    },
+    {
+      "id": "figma",
+      "title": "Evidence Lab · final Figma Handoff",
+      "url": "https://www.figma.com/design/RSMtkUb6n2aO9IyftXhYrF?node-id=111-40",
+      "category": "Design",
+      "type": "Figma",
+      "access": "Read through connection · guest access unverified",
+      "note": "Final Handoff inspected 27 October. Earlier exploration remains in the file. Navigation is linked; forms and AI are visual design states."
+    },
+    {
+      "id": "figma-original",
+      "title": "Figma · original supplied file entry",
+      "url": "https://www.figma.com/design/RSMtkUb6n2aO9IyftXhYrF/Wiki-Edu-Claim-Verification-User-Experience?node-id=12-5366",
+      "category": "Design",
+      "type": "Figma",
+      "access": "File inspected through connection",
+      "note": "The final Handoff is node 111:40; this supplied entry is retained for traceability."
+    },
+    {
+      "id": "ux-task",
+      "title": "#7151 · improve the verification learning experience",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7151",
+      "category": "Design",
+      "type": "GitHub issue",
+      "access": "Public · read",
+      "note": "Ease of use and deeper understanding of source checking and AI."
+    },
+    {
+      "id": "ux-comment",
+      "title": "Janine's initial UX suggestions",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7151#issuecomment-6313998515",
+      "category": "Design",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "Initial broad suggestions posted 21 October, before the later focused Handoff."
+    },
+    {
+      "id": "research-report",
+      "title": "Comparing Claim Verification Assessments · seven-report synthesis",
+      "url": "https://app.notion.com/p/402fc8205dbf802d8e59c5672679432c",
+      "category": "Research",
+      "type": "Notion",
+      "access": "Read through connection · guest access unverified",
+      "note": "Qualitative patterns and examples, with links to the seven underlying reports. No overall agreement score or independent ground-truth validation."
+    },
+    {
+      "id": "aggregate-task",
+      "title": "#7175 · aggregate claims evaluations",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7175",
+      "category": "Research",
+      "type": "GitHub issue",
+      "access": "Public · read",
+      "note": "Invites contributors to aggregate public evaluations and report insights."
+    },
+    {
+      "id": "walkthrough-report",
+      "title": "Local Walkthrough and UX Review",
+      "url": "https://app.notion.com/p/400fc8205dbf8105b419fc57efa3c581",
+      "category": "Research",
+      "type": "Notion",
+      "access": "Read through connection · guest access unverified",
+      "note": "AI-assisted local exploration with a synthetic account and sample claims, not a student study."
+    },
+    {
+      "id": "setup",
+      "title": "Dashboard official local setup documentation",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/blob/master/docs/setup.md",
+      "category": "Engineering",
+      "type": "Documentation",
+      "access": "Public · read",
+      "note": "Official script/manual workflows, dependencies, database setup and asset build instructions."
+    },
+    {
+      "id": "style-task",
+      "title": "#4465 · update the style guide",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/4465",
+      "category": "Engineering",
+      "type": "GitHub issue",
+      "access": "Public · read",
+      "note": "PR #7204 addresses initialization for existing examples, only part of the wider issue."
+    },
+    {
+      "id": "engineering-report",
+      "title": "#4465 · investigation and controlled comparison",
+      "url": "https://dust-bread-530.notion.site/Issue-4465-Restore-Standalone-React-Examples-402fc8205dbf81afb10fc8faa4c2027d",
+      "category": "Engineering",
+      "type": "Notion",
+      "access": "Read through connection · guest access unverified",
+      "note": "Historical report still describes a draft PR and approval-blocked CI; current GitHub status takes precedence."
+    },
+    {
+      "id": "pr",
+      "title": "PR #7204 · restore standalone style guide React initialization",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/7204",
+      "category": "Engineering",
+      "type": "Pull request",
+      "access": "Public · verified 27 Oct",
+      "note": "Open, not draft, not merged. Head bb3fc98b07004cc4d48e6a8af1eb777f8ca00760; two changed files."
+    },
+    {
+      "id": "ci",
+      "title": "PR #7204 · current CI run",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/actions/runs/40084512352",
+      "category": "Engineering",
+      "type": "GitHub Actions",
+      "access": "Public · verified 27 Oct",
+      "note": "Build: success. Security-audit: failure. Overall run: failure. Root cause is not attributed here."
+    },
+    {
+      "id": "ready-comment",
+      "title": "Janine's ready-for-review update",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/7204#issuecomment-6434000697",
+      "category": "Engineering",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "Dated 27 October 2026. Ready for review does not mean approved or merged."
+    },
+    {
+      "id": "comments-task",
+      "title": "#6871 · clean up outdated code comments",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/6871",
+      "category": "Engineering",
+      "type": "GitHub issue",
+      "access": "Public · read",
+      "note": "Focus on substantive inaccuracies that could cause confusion or mistakes."
+    },
+    {
+      "id": "comments-report",
+      "title": "#6871 · investigation and decision not to submit",
+      "url": "https://app.notion.com/p/402fc8205dbf81b590f4c1ace2c8e68d",
+      "category": "Engineering",
+      "type": "Notion",
+      "access": "Read through connection · guest access unverified",
+      "note": "No code committed, pushed or submitted for this investigation."
+    },
+    {
+      "id": "withdrawal",
+      "title": "Janine's #6871 decision and explanation",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/6871#issuecomment-6379127847",
+      "category": "Engineering",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "Publicly documents the choice not to submit a terminology-only cleanup."
+    },
+    {
+      "id": "community-intro",
+      "title": "Projects Introduction · contributor FAQ and learning resources",
+      "url": "https://hackmd.io/@wikipedia-claim-source-verification/BJqK9Ge3Mx",
+      "category": "Community",
+      "type": "HackMD",
+      "access": "Public markdown · read",
+      "note": "Community draft. Not official requirements. Private preparation suggestions and contact details are not reproduced."
+    },
+    {
+      "id": "community-links",
+      "title": "Important Outreachy Links · curated resource index",
+      "url": "https://hackmd.io/@wikipedia-claim-source-verification/HJlFU2rhMe",
+      "category": "Community",
+      "type": "HackMD",
+      "access": "Public markdown · read",
+      "note": "Tasks, guides, proposal examples and meeting records. Portfolio excludes embedded meeting credentials."
+    },
+    {
+      "id": "community-meetings",
+      "title": "Meeting coordination and recordings · agendas",
+      "url": "https://hackmd.io/@wikipedia-claim-source-verification/BJD2IMe2zl",
+      "category": "Community",
+      "type": "HackMD",
+      "access": "Public markdown · read",
+      "note": "Two meeting agendas; follow-up notes marked work in progress. Recordings are not embedded or redistributed."
+    },
+    {
+      "id": "community-local",
+      "title": "Run the Claim-Verification Exercise Locally · community guide",
+      "url": "https://hackmd.io/@wikipedia-claim-source-verification/BJYPDTS2Gl",
+      "category": "Community",
+      "type": "HackMD",
+      "access": "Public markdown · read",
+      "note": "Compiled by Janine with community credit. Adapted follow-up script not tested end to end; sample claims are demo data."
+    },
+    {
+      "id": "community-share",
+      "title": "Janine's public sharing of community guides",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7037#issuecomment-6309101907",
+      "category": "Community",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "21 October comment links the introduction, resource index and local setup guide. Supports knowledge-sharing activity without inventing engagement counts."
+    },
+    {
+      "id": "introduction",
+      "title": "Janine's introduction to the project",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues/7037#issuecomment-6138902916",
+      "category": "Community",
+      "type": "GitHub discussion",
+      "access": "Public · read",
+      "note": "13 October 2026. Public starting point for this contribution timeline."
+    },
+    {
+      "id": "newcomer",
+      "title": "Newcomer-friendly Dashboard issue discovery",
+      "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22newcomer%20friendly%22",
+      "category": "Engineering",
+      "type": "GitHub search",
+      "access": "Dynamic search · retained",
+      "note": "A discovery link, not a count of contributions or a fixed list of available work."
+    }
+  ],
+  "designApproach": "I start by understanding the problem and the existing experience, then use the findings to guide design decisions.",
+  "claimExample": {
+    "claim": "Their eyes open at around nine days of age.",
+    "article": "American pika",
+    "source": "Smith & Weston, Ochotona princeps (1990)",
+    "excerpt": "Eyes of young open at an average of 9 days of age (Whitworth, 1984).",
+    "location": "Page 4, paragraph 6, line 3, as recorded in my report",
+    "assessment": "My assessment was supported: the wording differs, but the meaning is consistent. The statement describes a typical age, rather than the same timing for every individual."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "outreachy-2026-claim-verification",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Janine Makorre's source-backed Wiki Education contribution portfolio",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {"node": ">=22"}
+}
