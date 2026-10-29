@@ -1,0 +1,39 @@
+{
+  "recordedDate": "29 October 2026",
+  "dateISO": "2026-10-29",
+  "timezone": "Africa/Nairobi",
+  "notes": [
+    {
+      "id": "community-intro",
+      "title": "Introduction & FAQs",
+      "views": 122,
+      "evidence": "assets/evidence/hackmd-2026-10-29/introduction.png",
+      "width": 1521,
+      "height": 722
+    },
+    {
+      "id": "community-links",
+      "title": "Important project links",
+      "views": 139,
+      "evidence": "assets/evidence/hackmd-2026-10-29/project-links.png",
+      "width": 1521,
+      "height": 722
+    },
+    {
+      "id": "community-meetings",
+      "title": "Meeting coordination & agendas",
+      "views": 36,
+      "evidence": "assets/evidence/hackmd-2026-10-29/meetings.png",
+      "width": 1505,
+      "height": 475
+    },
+    {
+      "id": "community-local",
+      "title": "Run the exercise locally",
+      "views": 112,
+      "evidence": "assets/evidence/hackmd-2026-10-29/local-guide.png",
+      "width": 1521,
+      "height": 722
+    }
+  ]
+}
