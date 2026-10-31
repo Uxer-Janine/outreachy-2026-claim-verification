@@ -19,7 +19,8 @@ assert(!/<details\b|<summary\b/.test(html),'Contribution information must be vis
 assert(!/Contribution Timeline|Resources &amp; Supporting Links|Source access and review notes|Read more|Overview:|My Work:|Outcome:/.test(html),'Removed report-style content remains');
 assert(html.includes('aims to build a collection of human-reviewed'),'Missing human-review project scope');
 assert(html.includes('proposed designs'),'UX proposal must not imply implementation');
-assert(html.includes('open, ready for review and unmerged'),'Missing verified PR status');
+assert(html.includes('Merged · PR #7204') && html.includes('merged its two commits'),'Missing merged PR status');
+assert(!/open, ready for review and unmerged|action_required/.test(html),'Outdated current PR status');
 assert(html.includes('AI Assistance & Attribution'),'Missing attribution');
 const externalUrls=[...html.matchAll(/href="(https:[^"]+)"/g)].map(m=>m[1]);
 assert.equal(externalUrls.length,new Set(externalUrls).size,'Duplicated external URL');

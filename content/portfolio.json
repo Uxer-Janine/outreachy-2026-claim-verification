@@ -141,15 +141,15 @@
       "title": "Style Guide Initialization — Issue #4465 / PR #7204",
       "shortTitle": "Style Guide Initialization — Issue #4465 / PR #7204",
       "issue": "#4465 / PR #7204",
-      "status": "Open · ready for review",
+      "status": "Merged · approved by Sage Ross (ragesoss)",
       "date": "2026-10-24",
-      "dateLabel": "PR opened 24 October 2026",
-      "summary": "A focused two-file patch restoring initialization for existing React examples in the Dashboard's standalone style guide.",
+      "dateLabel": "Opened 24 October; merged 29 October 2026",
+      "summary": "Merged two-commit contribution restoring standalone style guide React initialization and correcting DatePicker date bounds.",
       "problem": "The standalone entry point failed because I18n was not initialized before dependent components loaded; examples also needed Redux context.",
-      "approach": "Investigated startup dependencies, initialized translations early, supplied a small Redux store through Provider, and added regression tests in English and Spanish.",
-      "outcome": "PR #7204 changes the style guide entry point and one test file. Controlled fixtures using matching HTML, CSS, translations and setup demonstrated restored examples. Addresses part of #4465.",
+      "approach": "Investigated startup dependencies, initialized translations early, supplied a small Redux store through Provider, and added regression tests in English and Spanish. Parsed DatePicker bounds as dates and tested inclusive limits and out-of-range input.",
+      "outcome": "PR #7204 was reviewed and approved by Sage Ross (ragesoss) and merged into WikiEducationFoundation/WikiEduDashboard master on 29 October 2026. Two commits restore initialization and correct date-bound handling. Focused validation passed 42 tests on Windows and Linux with zero date-fns warnings.",
       "lesson": "The public website was not a verified baseline. A controlled original-versus-patched comparison was necessary to attribute differences to the patch.",
-      "limitation": "Not merged. CI build passed; security-audit failed on the current head as checked 27 October. Popover positioning, missing examples and some date-boundary behavior remain outside scope.",
+      "limitation": "Addresses part of Issue #4465. Popover positioning, missing component examples and wider style guide work remain outside scope. The merge does not establish deployment or shipped Evidence Lab designs.",
       "ai": "Codex assisted implementation, tests, validation and PR preparation. I selected the issue, questioned assumptions, directed the controlled comparison and reviewed the scope and results.",
       "sources": [
         "pr",
@@ -160,7 +160,7 @@
       "anchor": "engineering",
       "task": "Investigate and restore existing React examples that were not rendering on the standalone style guide page.",
       "myContribution": "I selected the issue, reviewed the investigation and directed a controlled original-versus-patched comparison. Codex assisted with the two-file implementation, regression tests and validation. The patch initializes translations before dependent components and provides the required Redux context.",
-      "result": "I submitted PR #7204, which addresses part of #4465. It is open and ready for review, not merged. The controlled comparison showed the existing date controls and calendar rendering after the fix. Other component and positioning work remains outside this patch."
+      "result": "Merged upstream as PR #7204 after review and approval by Sage Ross (ragesoss). Two commits restore standalone React examples and correct DatePicker bounds, with regression coverage for date limits."
     },
     {
       "id": "comments",
@@ -315,8 +315,14 @@
     {
       "date": "27 Oct 2026",
       "title": "Marked PR #7204 ready for review",
-      "body": "The PR remains open and unmerged. Current build and security-audit results are reported separately.",
+      "body": "Marked the PR ready for review at this stage; review and the date-bounds follow-up preceded the later merge.",
       "source": "ready-comment"
+    },
+    {
+      "date": "29 Oct 2026",
+      "title": "PR #7204 approved and merged",
+      "body": "Sage Ross (ragesoss) approved the contribution and merged two commits into WikiEducationFoundation/WikiEduDashboard master. GitHub records the merge at 20:15 UTC (23:15 Africa/Nairobi).",
+      "source": "pr"
     }
   ],
   "sources": [
@@ -462,25 +468,25 @@
       "category": "Engineering",
       "type": "Notion",
       "access": "Read through connection · guest access unverified",
-      "note": "Historical report still describes a draft PR and approval-blocked CI; current GitHub status takes precedence."
+      "note": "Historical investigation and controlled comparison. The original report predates merge; GitHub confirms PR #7204 merged on 29 October 2026. Date-bounds correction and regression coverage are included in the merged contribution."
     },
     {
       "id": "pr",
-      "title": "PR #7204 · restore standalone style guide React initialization",
+      "title": "Merged PR #7204 · standalone initialization and DatePicker bounds",
       "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/7204",
       "category": "Engineering",
       "type": "Pull request",
-      "access": "Public · verified 27 Oct",
-      "note": "Open, not draft, not merged. Head bb3fc98b07004cc4d48e6a8af1eb777f8ca00760; two changed files."
+      "access": "Public · verified 31 Oct 2026",
+      "note": "Approved and merged by Sage Ross (ragesoss). Two commits into master; merged_at 2026-10-29T20:15:39Z. Merge commit d1b8b31273ece45266665534a37569aa7da094e6."
     },
     {
       "id": "ci",
-      "title": "PR #7204 · current CI run",
+      "title": "PR #7204 · historical CI run",
       "url": "https://github.com/WikiEducationFoundation/WikiEduDashboard/actions/runs/40084512352",
       "category": "Engineering",
       "type": "GitHub Actions",
       "access": "Public · verified 27 Oct",
-      "note": "Build: success. Security-audit: failure. Overall run: failure. Root cause is not attributed here."
+      "note": "Historical pre-merge CI snapshot, not current merge status. Build succeeded; security-audit failed at that recorded revision. See the merged PR for the final outcome."
     },
     {
       "id": "ready-comment",
