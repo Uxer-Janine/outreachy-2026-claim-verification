@@ -5,7 +5,7 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 @media print{.site-header,.skip-link{display:none}.wrap{width:100%}.hero,.project-layout,.contribution-card{gap:20px}.hero{padding-block:20px}.contribution-card{break-inside:avoid}.contributions-section{padding-block:25px}.portrait-frame{max-width:200px}body{background:white}}
 /* Targeted visibility for the separate code-comments investigation. */
-.comments-investigation{margin-top:19px;font-style:normal}.comments-investigation h4{font-size:17px;letter-spacing:0}.comments-investigation>p{font-size:15px;color:var(--muted);margin-top:18px}.comments-investigation .card-links{margin-top:18px}.proposal-link{font-size:13px;margin-top:24px}@media(max-width:650px){.comments-investigation>p{font-size:14px}}
+#engineering{align-items:start}.engineering-subtitle{margin-top:16px;font-size:19px}.comments-investigation{grid-column:1/-1;border-top:1px solid var(--line);padding-top:22px}.comments-investigation>p:not(.eyebrow){max-width:72ch}.comments-investigation h4{font-size:17px;letter-spacing:0}.comments-investigation>p:not(.eyebrow){font-size:15px;color:var(--muted);margin-top:18px}.comments-investigation .card-links{margin-top:18px}.proposal-link{font-size:13px;margin-top:24px}@media(max-width:650px){.comments-investigation>p:not(.eyebrow){font-size:14px}}
 
 /* Compact social cards: scoped to the professional profile links. */
 .contact-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch}.contact-links .social-card{display:flex;align-items:center;gap:12px;min-height:64px;padding:15px 17px;background:var(--white);border:1px solid var(--line);border-radius:7px;color:var(--ink);text-decoration:none;transition:background-color .18s ease,border-color .18s ease}.social-card .social-icon{width:23px;height:23px;flex:none;color:var(--blue-dark)}.social-card .social-arrow{margin-left:auto;color:var(--muted);transition:transform .18s ease}.contact-links .social-card:hover{background:var(--blue-light);border-color:var(--blue)}.social-card:hover .social-arrow{transform:translate(2px,-2px)}.contact-links .social-card:focus-visible{outline:3px solid var(--blue);outline-offset:4px;background:var(--blue-light);border-color:var(--blue)}@media(max-width:380px){.contact-links{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){.contact-links .social-card,.social-card .social-arrow{transition:none}.social-card:hover .social-arrow{transform:none}}
@@ -27,3 +27,28 @@
 .community-resources .medium-guide-card{display:flex;flex-direction:column;gap:14px;margin-top:24px;padding:24px;background:var(--white);border:2px solid var(--blue-dark);border-radius:6px;color:var(--ink);text-decoration:none;box-shadow:0 4px 14px rgb(0 0 0 / .06)}.medium-guide-brand{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:600;color:var(--muted)}.medium-guide-brand img{width:36px;height:36px;object-fit:contain}.community-resources .medium-guide-card h4{font-size:21px;line-height:1.4;color:var(--ink)}.medium-guide-description{font-size:14px;line-height:1.65;color:var(--muted)}.medium-guide-cta{font-size:14px;font-weight:600;color:var(--blue-dark);text-decoration:underline;text-underline-offset:4px}.community-resources .medium-guide-card:hover{background:var(--paper);border-color:var(--blue)}.community-resources .medium-guide-card:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
 
 .card-links .merged-status{display:inline-flex;align-items:center;padding:7px 13px;border:1px solid var(--blue-dark);border-radius:4px;background:var(--blue-light);color:var(--blue-dark);font-weight:700;text-decoration:none}.card-links .merged-status:hover{text-decoration:underline}
+
+/* Contribution hierarchy and independent work */
+.contribution-list{grid-template-columns:minmax(0,1fr)}
+.card-copy{overflow-wrap:anywhere}
+.optional-tasks{gap:18px}
+.optional-tasks .card-copy h4{font-size:23px;letter-spacing:-.35px}
+.feature-card{display:block}
+.feature-copy{min-width:0}
+.feature-copy h4{font-size:17px}
+.feature-copy p{margin-top:10px;color:var(--muted);font-size:15px}
+#independent-research .feature-copy{max-width:740px}
+.independent-parts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-top:20px}
+.independent-parts>div+div{border-left:1px solid var(--line);padding-left:26px}
+.feature-figure{margin-top:18px}
+.feature-figure img{max-height:250px;object-fit:contain}
+.reflection-section{padding-bottom:56px}
+.reflection-section .section-heading{max-width:740px;margin-bottom:15px}
+.next-steps{padding-left:21px;margin:0;color:var(--muted);font-size:15px}
+.next-steps li+li{margin-top:9px}
+.reflection-link{margin-top:18px;font-size:14px;font-weight:600}
+@media(max-width:650px){
+  .contribution-card,.independent-parts{grid-template-columns:minmax(0,1fr)}
+  .independent-parts>div+div{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}
+  .reflection-section{padding-bottom:36px}
+}

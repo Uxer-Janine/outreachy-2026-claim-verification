@@ -1,39 +1,43 @@
 {
-  "recordedDate": "29 October 2026",
-  "dateISO": "2026-10-29",
+  "recordedDate": "7 November 2026",
+  "dateISO": "2026-11-07",
   "timezone": "Africa/Nairobi",
   "notes": [
     {
       "id": "community-intro",
       "title": "Introduction & FAQs",
-      "views": 122,
-      "evidence": "assets/evidence/hackmd-2026-10-29/introduction.png",
-      "width": 1521,
-      "height": 722
+      "views": 141,
+      "evidence": "assets/evidence/hackmd-2026-11-07/introduction.png",
+      "width": 736,
+      "height": 104,
+      "verifiedTitle": "Introduction to claim-verification exercise and FAQs"
     },
     {
       "id": "community-links",
       "title": "Important project links",
-      "views": 139,
-      "evidence": "assets/evidence/hackmd-2026-10-29/project-links.png",
-      "width": 1521,
-      "height": 722
+      "views": 175,
+      "evidence": "assets/evidence/hackmd-2026-11-07/project-links.png",
+      "width": 736,
+      "height": 104,
+      "verifiedTitle": "Important Outreachy Links"
     },
     {
       "id": "community-meetings",
       "title": "Meeting coordination & agendas",
-      "views": 36,
-      "evidence": "assets/evidence/hackmd-2026-10-29/meetings.png",
-      "width": 1505,
-      "height": 475
+      "views": 43,
+      "evidence": "assets/evidence/hackmd-2026-11-07/meetings.png",
+      "width": 736,
+      "height": 104,
+      "verifiedTitle": "Asynchronous coordination - discussions and recordings"
     },
     {
       "id": "community-local",
       "title": "Run the exercise locally",
-      "views": 112,
-      "evidence": "assets/evidence/hackmd-2026-10-29/local-guide.png",
-      "width": 1521,
-      "height": 722
+      "views": 136,
+      "evidence": "assets/evidence/hackmd-2026-11-07/local-guide.png",
+      "width": 736,
+      "height": 104,
+      "verifiedTitle": "Run the Claim-Verification Exercise Locally"
     }
   ]
 }
