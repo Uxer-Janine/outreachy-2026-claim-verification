@@ -34,6 +34,16 @@
 .optional-tasks{gap:18px}
 .optional-tasks .card-copy h4{font-size:23px;letter-spacing:-.35px}
 .feature-card{display:block}
+#benchmark .independent-intro{max-width:75ch;margin-top:18px}
+#benchmark h4{font-size:19px}
+#benchmark h5{margin:0;font-size:17px;line-height:1.4;font-weight:600}
+#benchmark .independent-intro p,#benchmark .independent-audiences p,#benchmark>p:not(.eyebrow){margin-top:10px;font-size:15px;color:var(--muted)}
+#benchmark .independent-audiences{border-top:1px solid var(--line);margin-top:24px;padding-top:20px}
+#benchmark .independent-audiences dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;margin:14px 0 0}
+#benchmark .independent-audiences dt{font-size:14px;font-weight:600}
+#benchmark .independent-audiences dd{margin:3px 0 0;font-size:14px;color:var(--muted)}
+#benchmark .independent-takeaway{margin-top:20px}
+#benchmark .independent-status{font-size:13px}
 .feature-copy{min-width:0}
 .feature-copy h4{font-size:17px}
 .feature-copy p{margin-top:10px;color:var(--muted);font-size:15px}
@@ -50,5 +60,6 @@
 @media(max-width:650px){
   .contribution-card,.independent-parts{grid-template-columns:minmax(0,1fr)}
   .independent-parts>div+div{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}
+  #benchmark .independent-audiences dl{grid-template-columns:minmax(0,1fr);gap:12px}
   .reflection-section{padding-bottom:36px}
 }
