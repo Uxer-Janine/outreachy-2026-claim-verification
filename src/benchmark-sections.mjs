@@ -6,12 +6,12 @@ export function benchmarkSections(externalLink) {
   return `
   <article class="contribution-card feature-card" id="benchmark" aria-labelledby="benchmark-title">
     <p class="eyebrow">Self-initiated work</p>
-    <h3 id="benchmark-title">Claim–Source Verification Knowledge Base</h3>
+    <h3 id="benchmark-title">Claim–Source Verification Projects</h3>
     <div class="independent-intro">
-      <p>I created a practical resource to help people check whether cited sources support a claim. It brings together verification guidelines, real examples, and an interactive exercise so learners can practice making and explaining evidence-based judgments.</p>
+      <p>I built an interactive exercise and a practical reference to help learners check cited evidence and explain their judgments.</p>
     </div>
     <div class="feature-copy independent-desk" id="evidence-desk" aria-labelledby="evidence-desk-title">
-      <h4 id="evidence-desk-title">Evidence Desk — Interactive Verification Exercise</h4>
+      <h4 id="evidence-desk-title">Evidence Desk — Claim Verification Lab</h4>
       <p>Read a claim, examine the evidence, and decide whether the source supports it.</p>
       <ul class="card-links"><li>${externalLink(game, 'Try Evidence Desk')}</li></ul>
       <figure class="visual feature-figure">
@@ -21,16 +21,18 @@ export function benchmarkSections(externalLink) {
       <p>A04 is playable, and the other four cases are previews. Learner testing remains future work.</p>
     </div>
     <div class="independent-parts">
-      <div class="feature-copy">
-        <h5>Verification Knowledge Base</h5>
-        <p>A simple guide to checking claims, documenting evidence, and understanding different judgments.</p>
-        <ul class="card-links"><li>${externalLink(knowledgeBase, 'Open the Knowledge Base')}</li></ul>
-      </div>
-      <div class="feature-copy">
-        <h5>GitHub Repository</h5>
-        <p>Explore the original cases, documentation, and code behind the exercise.</p>
+      <section class="feature-copy independent-project" aria-labelledby="repository-title">
+        <span class="eyebrow">Technical implementation</span>
+        <h4 id="repository-title">GitHub Repository</h4>
+        <p>Explore the code behind the claim-verification exercise, the original case records, and the tools that check those records.</p>
         <ul class="card-links"><li>${externalLink(library, 'View the GitHub Repository')}</li></ul>
-      </div>
+      </section>
+      <section class="feature-copy independent-project" aria-labelledby="knowledge-base-title">
+        <span class="eyebrow">Research and knowledge sharing</span>
+        <h4 id="knowledge-base-title">Verification Knowledge Base</h4>
+        <p>Use practical guidelines and case studies to trace judgments to source passages. Explore the contributor research synthesis and resources for documenting and reviewing assessments.</p>
+        <ul class="card-links"><li>${externalLink(knowledgeBase, 'Open the Knowledge Base')}</li></ul>
+      </section>
     </div>
     <p class="independent-status"><strong>Research status.</strong> All five original assessments are provisional and await independent review. All 14 example predictions remain unscored.</p>
   </article>`;

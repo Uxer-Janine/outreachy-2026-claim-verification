@@ -46,7 +46,9 @@
 .feature-copy p{margin-top:10px;color:var(--muted);font-size:15px}
 #independent-research .feature-copy{max-width:740px}
 .independent-parts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-top:20px}
-.independent-parts>div+div{border-left:1px solid var(--line);padding-left:26px}
+.independent-project{display:flex;flex-direction:column;max-width:none;padding:clamp(14px,3vw,24px);border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+.independent-project .eyebrow{margin-bottom:8px}
+.independent-project .card-links{padding-top:12px;margin-top:auto}
 .feature-figure{margin-top:18px}
 .feature-figure img{max-height:250px;object-fit:contain}
 .reflection-section{padding-bottom:56px}
@@ -56,6 +58,5 @@
 .reflection-link{margin-top:18px;font-size:14px;font-weight:600}
 @media(max-width:650px){
   .contribution-card,.independent-parts{grid-template-columns:minmax(0,1fr)}
-  .independent-parts>div+div{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}
   .reflection-section{padding-bottom:36px}
 }
