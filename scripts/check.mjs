@@ -25,7 +25,7 @@ for(const m of html.matchAll(/<img\b[^>]*>/g)) {assert(/alt="[^"]+"/.test(m[0]),
 for(const m of html.matchAll(/<a\b[^>]*target="_blank"[^>]*>/g))assert(m[0].includes('rel="noopener noreferrer"'),'Unsafe external link');
 assert.equal([...html.matchAll(/<h1\b/g)].length,1,'Use one page heading');
 assert(html.includes('href="#main"'),'Missing skip link');
-assert.equal([...html.matchAll(/class="contribution-card(?: feature-card)?"/g)].length,7,'Expected seven contribution cards');
+assert.equal([...html.matchAll(/class="contribution-card(?: feature-card)?"/g)].length,6,'Expected six contribution cards');
 assert(!/<details\b|<summary\b/.test(html),'Contribution information must be visible without dropdowns');
 assert(!/Contribution Timeline|Resources &amp; Supporting Links|Source access and review notes|Read more|Overview:|My Work:|Outcome:/.test(html),'Removed report-style content remains');
 assert(html.includes('a collection of Wikipedia claims, their sources, and human assessments'),'Missing human-review project scope');
@@ -35,12 +35,12 @@ assert(!/open, ready for review and unmerged|action_required/.test(html),'Outdat
 assert(html.includes('AI Assistance & Attribution'),'Missing attribution');
 const externalUrls=[...html.matchAll(/href="(https:[^"]+)"/g)].map(m=>m[1]);
 assert.equal(externalUrls.length,new Set(externalUrls).size,'Duplicated external URL');
-const contributionOrder=['verification','design','research','engineering','community','independent-research','benchmark'];
+const contributionOrder=['verification','design','research','engineering','community','benchmark'];
 assert.deepEqual(ids.filter(id=>contributionOrder.includes(id)),contributionOrder,'Contribution priorities changed');
 const hero=html.split('class="hero wrap"')[1].split('</section>')[0];
 assert.match(hero,/href="#contributions">Explore my contributions/);
 assert(!hero.includes('href="https:'),'Hero should lead to official contributions');
-for(const text of ['All five original assessments are provisional','All 14 example predictions remain unscored','A04 is playable, and the other four cases are previews','Independent Research']){
+for(const text of ['All five original assessments are provisional','All 14 example predictions remain unscored','A04 is playable, and the other four cases are previews']){
   assert(html.includes(text),`Missing research context: ${text}`);
 }
 for(const id of ['microtask','human-report','aggregate-task','research-report','ux-task','case-study','figma','walkthrough-report','style-task','pr','engineering-report','comments-task','comments-report','community-intro','community-links','community-meetings','community-local'])assert(html.includes(data.sources.find(s=>s.id===id).url),'Missing primary contribution evidence '+id);

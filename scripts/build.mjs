@@ -39,15 +39,6 @@ const html=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta nam
     </section>
     ${card(cards.find(item=>item.id==='engineering'))}
     ${card(cards.find(item=>item.id==='community'))}
-    <article class="contribution-card feature-card" id="independent-research" aria-labelledby="independent-research-title">
-      <p class="eyebrow">Self-initiated work</p>
-      <h3 id="independent-research-title">Independent Research</h3>
-      <div class="feature-copy">
-        <p>Would AI tools notice the same gaps I did? I compared my own judgments with later responses from ChatGPT, Claude, and Gemini. They sometimes read the evidence differently, and one response withheld judgment when it could not access enough material.</p>
-        <p>The prompts, inputs, and source access are only partly documented. This was an exploratory comparison, so I cannot draw conclusions about which approach was more accurate.</p>
-        <ul class="card-links"><li>${ext(library + '/blob/main/docs/RESEARCH_NOTES.md#historical-humanai-comparison','Read the historical comparison notes')}</li></ul>
-      </div>
-    </article>
     ${benchmarkSections(ext)}
   </div>
 </section>
