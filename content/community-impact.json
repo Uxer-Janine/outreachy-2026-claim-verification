@@ -6,8 +6,8 @@
     {
       "id": "community-intro",
       "title": "Introduction & FAQs",
-      "views": 156,
-      "evidence": "assets/evidence/hackmd-2026-11-09-latest/introduction.png",
+      "views": 160,
+      "evidence": "assets/evidence/hackmd-2026-11-09-562/introduction.png",
       "width": 730,
       "height": 84,
       "verifiedTitle": "Introduction to claim-verification exercise and FAQs"
@@ -15,8 +15,8 @@
     {
       "id": "community-links",
       "title": "Important project links",
-      "views": 193,
-      "evidence": "assets/evidence/hackmd-2026-11-09-latest/project-links.png",
+      "views": 197,
+      "evidence": "assets/evidence/hackmd-2026-11-09-562/project-links.png",
       "width": 730,
       "height": 84,
       "verifiedTitle": "Important Outreachy Links"
@@ -24,8 +24,8 @@
     {
       "id": "community-meetings",
       "title": "Meeting coordination & agendas",
-      "views": 53,
-      "evidence": "assets/evidence/hackmd-2026-11-09-latest/meetings.png",
+      "views": 57,
+      "evidence": "assets/evidence/hackmd-2026-11-09-562/meetings.png",
       "width": 730,
       "height": 84,
       "verifiedTitle": "Asynchronous coordination - discussions and recordings"
@@ -33,8 +33,8 @@
     {
       "id": "community-local",
       "title": "Run the exercise locally",
-      "views": 148,
-      "evidence": "assets/evidence/hackmd-2026-11-09-latest/local-guide.png",
+      "views": 152,
+      "evidence": "assets/evidence/hackmd-2026-11-09-562/local-guide.png",
       "width": 730,
       "height": 84,
       "verifiedTitle": "Run the Claim-Verification Exercise Locally"
