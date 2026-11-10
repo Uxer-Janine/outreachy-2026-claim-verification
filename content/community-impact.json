@@ -1,43 +1,48 @@
 {
-  "recordedDate": "9 November 2026",
-  "dateISO": "2026-11-09",
+  "recordedDate": "10 November 2026",
+  "dateISO": "2026-11-10",
   "timezone": "Africa/Nairobi",
   "notes": [
     {
       "id": "community-intro",
       "title": "Introduction & FAQs",
-      "views": 167,
+      "views": 169,
       "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/introduction.png",
       "width": 730,
       "height": 84,
-      "verifiedTitle": "Introduction to claim-verification exercise and FAQs"
+      "verifiedTitle": "Introduction to claim-verification exercise and FAQs",
+      "evidenceViews": 167
     },
     {
       "id": "community-links",
       "title": "Important project links",
-      "views": 203,
+      "views": 204,
       "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/project-links.png",
       "width": 730,
       "height": 84,
-      "verifiedTitle": "Important Outreachy Links"
+      "verifiedTitle": "Important Outreachy Links",
+      "evidenceViews": 203
     },
     {
       "id": "community-meetings",
       "title": "Meeting coordination & agendas",
-      "views": 64,
+      "views": 65,
       "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/meetings.png",
       "width": 730,
       "height": 84,
-      "verifiedTitle": "Asynchronous coordination - discussions and recordings"
+      "verifiedTitle": "Asynchronous coordination - discussions and recordings",
+      "evidenceViews": 64
     },
     {
       "id": "community-local",
       "title": "Run the exercise locally",
-      "views": 159,
+      "views": 162,
       "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/local-guide.png",
       "width": 730,
       "height": 84,
-      "verifiedTitle": "Run the Claim-Verification Exercise Locally"
+      "verifiedTitle": "Run the Claim-Verification Exercise Locally",
+      "evidenceViews": 159
     }
-  ]
+  ],
+  "evidenceDate": "9 November 2026"
 }

@@ -14,7 +14,7 @@ assert(html.includes(`Recorded as of ${impact.recordedDate}.`),'Missing statisti
 for(const note of impact.notes){
   assert(html.includes(`class="community-view-count">${note.views} recorded views`),'Missing card count');
   assert(html.includes(`class="impact-bar-value">${note.views}<`),'Missing chart count');
-  assert(html.includes(`${note.views} recorded views on ${impact.recordedDate}`),'Missing screenshot count or date');
+  assert(html.includes(`${note.evidenceViews ?? note.views} recorded views on ${impact.evidenceDate ?? impact.recordedDate}`),'Missing screenshot count or date');
 }
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(ids.length,new Set(ids).size,'Duplicate IDs');
