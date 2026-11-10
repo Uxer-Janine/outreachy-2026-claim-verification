@@ -6,43 +6,38 @@
     {
       "id": "community-intro",
       "title": "Introduction & FAQs",
-      "views": 169,
-      "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/introduction.png",
-      "width": 730,
-      "height": 84,
-      "verifiedTitle": "Introduction to claim-verification exercise and FAQs",
-      "evidenceViews": 167
+      "views": 175,
+      "evidence": "assets/evidence/hackmd-2026-11-10-final/introduction.png",
+      "width": 731,
+      "height": 85,
+      "verifiedTitle": "Introduction to claim-verification exercise and FAQs"
     },
     {
       "id": "community-links",
       "title": "Important project links",
-      "views": 204,
-      "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/project-links.png",
-      "width": 730,
-      "height": 84,
-      "verifiedTitle": "Important Outreachy Links",
-      "evidenceViews": 203
+      "views": 205,
+      "evidence": "assets/evidence/hackmd-2026-11-10-final/project-links.png",
+      "width": 731,
+      "height": 85,
+      "verifiedTitle": "Important Outreachy Links"
     },
     {
       "id": "community-meetings",
       "title": "Meeting coordination & agendas",
-      "views": 65,
-      "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/meetings.png",
-      "width": 730,
-      "height": 84,
-      "verifiedTitle": "Asynchronous coordination - discussions and recordings",
-      "evidenceViews": 64
+      "views": 66,
+      "evidence": "assets/evidence/hackmd-2026-11-10-final/meetings.png",
+      "width": 731,
+      "height": 85,
+      "verifiedTitle": "Asynchronous coordination - discussions and recordings"
     },
     {
       "id": "community-local",
       "title": "Run the exercise locally",
-      "views": 162,
-      "evidence": "assets/evidence/hackmd-2026-11-09-final-snapshot/local-guide.png",
-      "width": 730,
-      "height": 84,
-      "verifiedTitle": "Run the Claim-Verification Exercise Locally",
-      "evidenceViews": 159
+      "views": 163,
+      "evidence": "assets/evidence/hackmd-2026-11-10-final/local-guide.png",
+      "width": 731,
+      "height": 85,
+      "verifiedTitle": "Run the Claim-Verification Exercise Locally"
     }
-  ],
-  "evidenceDate": "9 November 2026"
+  ]
 }
